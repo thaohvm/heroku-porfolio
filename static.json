@@ -1,3 +1,9 @@
 {
-    "root": "/"
+    "root": "/",
+    "https_only": true,
+    "routes": {
+        "/assets/*": "/assets/",
+        "/vendor/*": "/vendor/",
+        "/**": "index.html"
+    }
 }
